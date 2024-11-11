@@ -1,16 +1,17 @@
-Notes App - Retainer 📝
+### Notes App - Retainer 📝
+
 A full-stack note-taking application built using Django for the backend and React for the frontend. This beginner-friendly project helps you learn how to create, view, update, delete, filter, and search notes in an interactive and functional web application. Perfect for newcomers to full-stack development!
 Getting Started
-Prerequisites
+#### Prerequisites
 
 Python 3.x
 Node.js & npm
 Django and React libraries
 
-Installation
+#### Installation
 
 Clone the repository:
-git clone https://github.com/yourusername/notes-app.git
+git clone https://github.com/gray-learn/retainer
 cd notes-app
 
 Set up the backend (Django):
@@ -22,7 +23,6 @@ pip install -r requirements.txt
 django-admin startproject backend
 python manage.py makemigrations
 python manage.py migrate
-python manage.py createsuperuser
 python manage.py runserver
 The backend is now running at http://127.0.0.1:8000/.
 Set up the frontend (React):
@@ -30,15 +30,13 @@ cd ../frontend
 npm install
 npm start
 
-
-That's it! The full-stack application is now running, and you can start exploring the Notes App.
-Features
+#### Features
 
 Create, view, update, delete, filter, and search notes
 User authentication (registration, login, logout)
 Responsive and intuitive user interface
 
-Technologies Used
+#### Technologies Used
 
 Backend: Django
 Frontend: React
